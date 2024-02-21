@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+out/
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+*.env
+.env
+__pycache__/*
+*.pyc
+.vscode/
+.idea/
