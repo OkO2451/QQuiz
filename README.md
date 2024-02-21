@@ -25,3 +25,9 @@ La réponse sera un tableau JSON de questions de quiz. Chaque question est repr�
 Pour obtenir des explications sur les questions de quiz, faites une requête GET au point de terminaison /explain avec le paramètre de requête question. Le paramètre question doit être une chaîne contenant le contenu de la question.
 
 curl "<http://localhost:8080/explain?question=VotreQuestion&answer=VotreReponse>"
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
