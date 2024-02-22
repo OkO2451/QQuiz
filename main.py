@@ -20,7 +20,7 @@ class Item(BaseModel):
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("API2")
-client = OpenAI()
+client = OpenAI(api_key=OPENAI_API_KEY)
 client.api_key = OPENAI_API_KEY
 PROMPT = os.getenv("PROMPT")
 PORT = int(os.getenv("PORT", 8000))
