@@ -74,8 +74,10 @@ async def generate_quiz_questions(course_content):
                     "content": PROMPT
                 },
                 {
-                    "role": "user",
-                    "content": "desiver les contenue de ce cour pour creer un quiz dans ce style \'#### Q1: la question que vous genererez?\n- [ ] reponse fausse\n- [X] reponse correct\n- [ ] cutre reponse fausse\n\n\' content: " + course_content
+                "role": "user",
+                "content": "desiver les contenue de ce cour pour creer un quiz dans ce style "+
+                "\'#### Q1: la question que vous genererez?\n- [ ] reponse fausse\n- "+
+                "[X] reponse correct\n- [ ] cutre reponse fausse\n\n\' content: " + course_content
                 },
             ]
         )
